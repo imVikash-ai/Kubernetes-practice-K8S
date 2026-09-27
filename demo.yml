@@ -1,0 +1,18 @@
+name: "Vikash"
+age: 25
+
+hobbies:
+  - teaching
+  - reading book
+  - timepass
+
+work:
+  fulltime:
+    name: TCS
+    designation: Software Engineer
+    tasks:
+      - coding
+      - python
+      - GEN AI
+
+
