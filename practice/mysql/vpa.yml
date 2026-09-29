@@ -1,0 +1,15 @@
+kind: VerticalPodAutoscaler
+apiVersion: autoscaling.k8s.io/v1
+
+metadata:
+  name: mysql-vpa
+  namespace: mysql
+
+spec:
+  targetRef:
+    apiversion: apps/v1
+    kind: Deployment
+    name: mysql-deployment
+  
+  upodatePolicy:
+    updatedMode: Auto
